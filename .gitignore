@@ -1,0 +1,46 @@
+*.iml
+.gradle/
+/local.properties
+local.properties
+/.idea/
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+Thumbs.db
+
+# Build outputs
+/build/
+/app/build/
+**/build/
+bin/
+gen/
+out/
+
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Android packaging / bundles
+*.apk
+*.aab
+*.ap_
+*.aar
+
+# Kotlin / JVM
+.kotlin/
+*.dex
+*.class
+
+# NDK / profiling
+*.hprof
+
+# Signing — never commit keys
+*.jks
+*.keystore
+
+# Logs
+*.log
